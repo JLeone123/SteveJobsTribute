@@ -1,13 +1,37 @@
 p {
-    color: red;
+    color: black;
 }
 
+/* 
+   1) img element should respond responsively resize,
+      relative to the width of its parent element,
+      without exceeding its original size
+   2) img element should be centered within its parent element
+*/
+
+
 img {
-    width: 60%;
+    width: 50%;
     margin: auto;
     display: block;
 }
 
-figcaption {
+ #albert-watson-steve-jobs-photo {
     text-align: center;
+    font-family: "Lobster Two", sans-serif;
+    font-style: italic;
+    font-display: swap; 
+}
+
+/* body {
+    background-color: #171717;
+    background-color: #d1d1d1;
+    background-color: #283646; // dark blue navy quote color
+} */
+
+/* id rules */
+
+#title-description {
+    /* font-family: sans-serif; */
+    font-family: 'Montserrat', sans-serif;
 }
