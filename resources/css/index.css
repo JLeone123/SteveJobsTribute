@@ -12,11 +12,16 @@ p {
 
 img {
     width: 50%;
+    max-width: 100%;
     margin: auto;
     display: block;
 }
 
- #albert-watson-steve-jobs-photo {
+#photos {
+    
+}
+
+.photo-desc {
     text-align: center;
     font-family: "Lobster Two", sans-serif;
     font-style: italic;
@@ -26,7 +31,8 @@ img {
 /* body {
     background-color: #171717;
     background-color: #d1d1d1;
-    background-color: #283646; // dark blue navy quote color
+    background-color: #283646; dark blue navy quote color
+    background-color: #0a0b0d; Like this one?
 } */
 
 /* id rules */
