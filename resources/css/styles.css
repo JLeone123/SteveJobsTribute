@@ -1,7 +1,3 @@
-p {
-    color: black;
-}
-
 /* 
    1) img element should respond responsively resize,
       relative to the width of its parent element,
@@ -15,6 +11,13 @@ img {
     max-width: 100%;
     margin: auto;
     display: block;
+    border: 1px none black;
+    box-shadow: rgba(0, 0, 0, 0.30) 0px 4px 10px;
+}
+
+ul {
+    font-family: 'Montserrat', sans-serif;
+    list-style-type: none;
 }
 
 .photo-desc {
@@ -24,16 +27,14 @@ img {
     font-display: swap; 
 }
 
-/* body {
-    background-color: #171717;
-    background-color: #d1d1d1;
-    background-color: #283646; dark blue navy quote color
-    background-color: #0a0b0d; Like this one?
-} */
+body {
+    /* background-color: #283646; dark blue navy quote color */
+    /* background-color: #0a0b0d; Like this one? */
+}
 
 /* id rules */
 
-#title-description {
+#tribute-info {
     /* font-family: sans-serif; */
     font-family: 'Montserrat', sans-serif;
 }
