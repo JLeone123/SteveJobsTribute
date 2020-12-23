@@ -9,7 +9,7 @@ If you'd like to run the project yourself, you can clone the repository using Gi
 ```Dockerfile
 docker build -t <image-name>:<tag-name> .
 docker run -d -p 5000:5000 <image-name>:<tag-name>
-curl localhost:5000 # to make sure the server's running!
+curl localhost:5000 # to make sure the server is running!
 ```
 
 If you have any feedback for me, feel free to shoot me an email at jsalleo13@gmail.com or my school email jleone@umass.edu
