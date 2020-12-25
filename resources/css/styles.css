@@ -4,20 +4,69 @@ img {
     max-width: 50%;
     margin: auto;
     display: block;
-    border: 1px none black;
-    box-shadow: rgba(0, 0, 0, 0.30) 0px 4px 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+    /* box-shadow: rgba(0, 0, 0, 0.30) 0px 4px 10px; */
+}
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    display: swap;
+    text-align: center;
+    font-size:5vh;
+
+}
+
+/* .quotes {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 
+
+} */
+
+blockquote {
+    background: #f8f8f8;
+    padding: 0.5em 10px;
+    border-left: 15px solid #c3c3c3;
+    font-size: 1em;
+  }
+
+blockquote:before {
+    font-size: 4em;
+    line-height: 0.1em;
+    margin-right: 0.25em;
+    vertical-align: -0.4em;
+}
+
+blockquote p {
+    display: inline;
+    font-family: 'Montserrat', sans-serif;
+}
+
+blockquote figcaption {
+    padding-top: 0.5em;
+    text-indent: 2em;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#title-desc {
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 3vh;
+    text-align: center;
 }
 
 ul {
     font-family: 'Montserrat', sans-serif;
     list-style-type: none;
+    line-height: 1.25em;
 }
 
 .photo-desc {
     text-align: center;
-    font-family: "Lobster Two", sans-serif;
-    font-style: italic;
-    font-display: swap; 
+    font-family: "Helvetica", sans-serif;
+    font-size: 1em;
+    line-height: 1.5em;
 }
 
 #goalcast-video {
@@ -28,8 +77,6 @@ ul {
 }
 
 body {
-    /* background-color: #283646; dark blue navy quote color */
-    /* background-color: #0a0b0d; Like this one? */
 }
 
 /* id rules */
