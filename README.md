@@ -1,5 +1,5 @@
 # A Tribute Page to Steve Jobs
-I completed this project in order to get the Responsive Web Design Certification on freeCodeCamp.
+I completed this project to get the Responsive Web Design Certification on freeCodeCamp.
 
 If you'd like to see my own version of this project, which includes JavaScript using the Express Node.js framework and some jQuery, the link to that project is <a title="link to my version of the project!" href="#">here!</a>
 
